@@ -256,10 +256,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-#imgmob {
+.imgmob {
   display: none;
 }
-
 
 @media only screen and (max-width: 768px) {
   .cimg {
@@ -267,10 +266,14 @@ h1, h2, h3, h4, h5, h6 {
     height: 10em;
   }
 
-  #imgdsk {
+  .imgdsk {
     display: none;
   }
-  #imgmob {
+  .imgmob {
     display: block;
+  }
+
+  #snakeimg {
+    width: unset !important;
   }
 }
