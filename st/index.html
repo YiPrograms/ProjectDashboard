@@ -66,26 +66,27 @@
         <div class="mdl-layout__tab-panel is-active"> 
           <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--4dp" id="pacman">
             <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Google_Lens_-_new_logo.png"/>
+              <img src="/images/nodemcu.png"/>
             </header>
             <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
               <div class="mdl-card__supporting-text">
                 <h4>智慧額溫系統 NodeMCU 主機程式</h4>
-                <h6><b>人工智慧</b>是未來的趨勢之一,嘗試使用 <b>PyTorch</b> 實作<b>機器學習</b>,期望到大學階段得以<b>深入</b>這門科學的專業領域。</h6>
+                <h6>以<b>C++</b>編寫，使用<b>NodeMCU</b>作為主控平台，以<b>SPI</b>連接LCD、觸控面板、RFID Scanner，並以<b>I2C</b>連接紅外線靠近感知器與溫度感應計，接近時量測額溫，上傳至伺服器</h6>
               </div>
               <div class="mdl-card__actions">
                 <a href="https://github.com/YiPrograms/SmartThermometer-Node" style="text-transform: none;" target="_blank" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent">GitHub 連結</a>
+                <a href="https://camo.githubusercontent.com/c5ea690b40cdb62d9284ead9f3998c7a61e7ad52/68747470733a2f2f692e696d6775722e636f6d2f3863354b5150572e706e67" style="text-transform: none;" target="_blank" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent">硬體架構方塊圖</a>
               </div>
             </div>
           </section>
           <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--4dp" id="pacman">
             <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Google_Lens_-_new_logo.png"/>
+              <img src="/images/server.png"/>
             </header>
             <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
               <div class="mdl-card__supporting-text">
                 <h4>智慧額溫系統 伺服器程式</h4>
-                <h6>使用 <b>pygame</b> 函式庫，活用了各種物件及<b>A*搜尋演算法</b>，重現了經典的小精靈遊戲</h6>
+                <h6>以<b>Go</b>編寫，使用<b>SQLite資料庫</b>紀錄及查詢卡片對應的座號與名字，並透過<b>Google Sheets API</b>將溫度資料填入Google試算表</h6>
               </div>
               <div class="mdl-card__actions">
                 <a href="https://github.com/YiPrograms/SmartThermometer-Server" style="text-transform: none;" target="_blank" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent">GitHub 連結</a>

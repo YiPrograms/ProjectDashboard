@@ -242,6 +242,7 @@
 img {
   max-width: 100%;
   max-height: 100%;
+  object-fit: cover;
 }
 
 html, body {
@@ -252,4 +253,24 @@ html, body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Noto Sans TC', 'Roboto', 'Helvetica', sans-serif !important;
+}
+
+
+#imgmob {
+  display: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .cimg {
+    min-height: 10em !important;
+    height: 10em;
+  }
+
+  #imgdsk {
+    display: none;
+  }
+  #imgmob {
+    display: block;
+  }
 }
